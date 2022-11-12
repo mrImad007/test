@@ -1,0 +1,34 @@
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+}
+.menu a{
+    margin-right: 10px;
+    color: black;
+}
+h1{
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+.content{
+    height: 700px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+.club{
+    width: 250px;
+    height: 350px;
+    border-radius: 20px;
+}
+img{
+    width: 250px;
+    height: 150px;
+    border-radius: 20px;
+}
