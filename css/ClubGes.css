@@ -1,0 +1,46 @@
+/* start nav */
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    background-color: black;
+}
+.menu a{
+    margin-right: 10px;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+}
+.menu a:hover{
+    color: rgb(65, 166, 255);
+    animation-delay: 1s;
+}
+.menu i{
+    font-size: xx-large;
+}
+.logo img{
+    width: 150px;
+}
+/* end navi */
+
+/* start body */
+.btns{
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 350px;
+    padding-right: 50px;
+}
+.name{
+    flex: 4;
+    text-align: center;
+}
+.img{
+    flex: 1;
+}
+.club{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
